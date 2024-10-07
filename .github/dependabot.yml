@@ -1,1 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # Change this to the package manager you are using
+    directory: "/" # Location of the dependency files
+    schedule:
+      interval: "weekly" # Options: "daily", "weekly", "monthly"
 
